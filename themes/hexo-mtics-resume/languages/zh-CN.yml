@@ -1,8 +1,11 @@
 resume:
+  name: 张子越
   education: 教育
   experience: 经历
   projects: 项目
   skills: 技能
+  activities: 活动
+  honors: 荣誉
 
 footer:
   poweredby: 技术支持：

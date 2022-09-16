@@ -38,18 +38,18 @@ resume:
       #location: Ut enim ad minim veniam
       #major: Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
   experience:
-    - title: Job Title 1
-      duration: Apr 2016 - Now
-      company: Your 1st, Inc.
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    - title: Job Title 2
-      duration: Apr 2013 - Mar 2016
-      company: Your 2nd, Inc.
-      description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    - title: Job Title 3
-      duration: Dec 2011 - Mar 2012
-      company: Your 3rd Co, Ltd.
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    - title: Game Engine Developer
+      duration: Jun 2022 - Sep 2022
+      company: Tencent
+      description: I worked in the Morefun Game Studio of Tencent Interactive Entertainment as an Unreal Engine developer internship for three month, during which I take an active part in a pre-research AI project. 
+    # - title: Job Title 2
+    #   duration: Apr 2013 - Mar 2016
+    #   company: Your 2nd, Inc.
+    #   description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    # - title: Job Title 3
+    #   duration: Dec 2011 - Mar 2012
+    #   company: Your 3rd Co, Ltd.
+    #   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   projects:
     - name: Project Name 1
       description: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -63,4 +63,18 @@ resume:
     - title: Skill Group 2
       items: Consectetur, Adipiscing, Elit
     - title: Skill Group 3
+      items: Sed do, Eiusmod, Tempor, Incididunt
+  activities:
+    - title: Activity Group 1
+      items: Lorem, Ipsum, Dolor, Sit, Amet
+    - title: Activity Group 2
+      items: Consectetur, Adipiscing, Elit
+    - title: Activity Group 3
+      items: Sed do, Eiusmod, Tempor, Incididunt
+  honors:
+    - title: Award Group 1
+      items: Lorem, Ipsum, Dolor, Sit, Amet
+    - title: Award Group 2
+      items: Consectetur, Adipiscing, Elit
+    - title: Award Group 3
       items: Sed do, Eiusmod, Tempor, Incididunt

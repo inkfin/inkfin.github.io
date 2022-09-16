@@ -2,7 +2,7 @@
   <header>
     <div class="name-wrapper">
       <div id="fullname" class="title">
-        {{ theme.resume.name }}
+        {{ __('resume.name') }}
       </div>
       <div id="jobtitle" class="sub-title">
         {{ theme.resume.jobtitle }}
@@ -12,7 +12,7 @@
       {% for item in theme.resume.contact %}
       <div class="contact-item">
         {% if item.link %}
-        <a href="{{ item.link }}">
+        <a href="{{ item.link }}" class="link">
         {% endif %}
         <i class="fa {{ item.icon }} aria-hidden="true></i> {{ item.text }}
         {% if item.link %}
@@ -98,21 +98,57 @@
   </section>
 
   <section id="skills">
-      <div class="section-title">
-      {{ __('resume.skills') }} 
-      </div>
-      <div class="section-content">
-        {% for skill in theme.resume.skills %}
-        <div class="block">
-          <div class="block-title">
-            {{ skill.title }}
-          </div>
-          <div class="block-subtitle">
-            {{ skill.items }}
-          </div>
+    <div class="section-title">
+    {{ __('resume.skills') }} 
+    </div>
+    <div class="section-content">
+      {% for skill in theme.resume.skills %}
+      <div class="block">
+        <div class="block-title">
+          {{ skill.title }}
         </div>
-        {% endfor %}
+        <div class="block-subtitle">
+          {{ skill.items }}
+        </div>
       </div>
-    </section>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section id="activities">
+    <div class="section-title">
+    {{ __('resume.activities') }} 
+    </div>
+    <div class="section-content">
+      {% for activitiy in theme.resume.activities %}
+      <div class="block">
+        <div class="block-title">
+          {{ activitiy.title }}
+        </div>
+        <div class="block-subtitle">
+          {{ activitiy.items }}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section id="honors">
+    <div class="section-title">
+    {{ __('resume.honors') }} 
+    </div>
+    <div class="section-content">
+      {% for honor in theme.resume.honors %}
+      <div class="block">
+        <div class="block-title">
+          {{ honor.title }}
+        </div>
+        <div class="block-subtitle">
+          {{ honor.items }}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
 
 </div>

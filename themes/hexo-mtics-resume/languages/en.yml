@@ -1,8 +1,11 @@
 resume:
+  name: Ziyue Zhang
   education: Education
   experience: Experience
   projects: Projects
   skills: Skills
+  activities: Activities
+  honors: Honors
 
 footer:
   poweredby: Powered by
